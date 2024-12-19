@@ -1,0 +1,30 @@
+@import './config.scss';
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    overflow: hidden;
+}
+
+input {
+    padding: 10px;
+    min-width:350px;
+    outline: 0;
+}
+
+.close {
+    background-color: $color-light-pink !important;
+}
+.qr-button {
+    color: white;
+    font-size: 15px;   
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: 0;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    background-color: $color-purple;
+}
